@@ -20,4 +20,7 @@ class PagesController extends Controller {
         $data['last']='Mazhar';
         return view('pages.about',$data);
     }
+    public function contacts(){
+        return view('pages.contacts');
+    }
 }
